@@ -1,0 +1,18 @@
+{
+  "name": "rn-simple-responsive-typography",
+  "author": "M.J. Abadilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "license": "MIT", 
+  "peerDependency": {
+    "react-native": "x.x.x"
+  },
+  "rnpm": {
+    "assets": [
+      "assets/fonts/Open_Sans",
+      "assets/fonts/Roboto"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+# rn-simple-responsive-typography
+
+# Install
+
+```
+npm install --save rn-simple-responsive-typography
+react-native link rn-simple-responsive-typography
+```
+
+# Usage
+
+styles.js
+```
+export { typography } from 'rn-simple-responsive-typography'
+```
+
+component.js
+```
+<Text style={typography.heading} />Heading text</Text>
+<Text style={typography.regular} />Regular text</Text>
+<Text style={typography.caption} />Caption text</Text>
+<Text style={typography.sub} />Sub text</Text>
+```
